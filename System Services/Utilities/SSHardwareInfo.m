@@ -126,6 +126,8 @@
             
             if ([DeviceType isEqualToString:@"i386"])
                 NewDeviceType = @"iPhone Simulator";
+            else if ([DeviceType isEqualToString:@"x86_64"])
+                NewDeviceType = @"iPhone Simulator";
             else if ([DeviceType isEqualToString:@"iPhone1,1"])
                 NewDeviceType = @"iPhone";
             else if ([DeviceType isEqualToString:@"iPhone1,2"])
