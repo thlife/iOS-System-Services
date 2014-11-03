@@ -148,6 +148,10 @@
                 NewDeviceType = @"iPhone 5s(GSM)";
             else if ([DeviceType isEqualToString:@"iPhone6,2"])
                 NewDeviceType = @"iPhone 5s(GSM+CDMA)";
+            else if ([DeviceType isEqualToString:@"iPhone7,1"])
+                NewDeviceType = @"iPhone 6 Plus";
+            else if ([DeviceType isEqualToString:@"iPhone7,2"])
+                NewDeviceType = @"iPhone 6";
             else if ([DeviceType isEqualToString:@"iPod1,1"])
                 NewDeviceType = @"iPod Touch 1G";
             else if ([DeviceType isEqualToString:@"iPod2,1"])
